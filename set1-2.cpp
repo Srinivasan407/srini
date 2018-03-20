@@ -1,16 +1,17 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include <iostream>
+using namespace std;
+int main()
 {
- clrscr();
+
  char c;
- if(c=='a'//c=='e'//c=='i'//c=='o'//c=='u'//c=='A'//c=='E'//c='I'//c=='O'//c=='U')
+ if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U')
  {
- cout<<character is vowel<<endl;
+ cout<< "character is vowel"<<endl;
  }
+ 
  else
  {
- cout<<character is consonant<<endl;
+ cout<< "character is consonant"<<endl;
  }
- getch();
- }
+ 
+}
