@@ -1,18 +1,19 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include <iostream>
+using namespace std;
+int main()
 {
-	clrscr();
 	char c;
 	cout<<"Enter a character: ";
 	cin>>c;
-	if((c>='a'&& ch<='z') || (c>='A' && c<='Z'))
+	
+	if((c>='a'&& c<='z') || (c>='A' && c<='Z'))
 	{
 		cout<<" Alphabet";
 	}
+	
 	else
 	{
 		cout<<" No Alphabet";
 	}
-	getch();
+	
 }
