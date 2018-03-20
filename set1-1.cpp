@@ -1,8 +1,7 @@
-#include<iostream.h>
-#include<conio.h>
+#include <iostream>
+using namespace std;
 void main()
 {
- clrscr();
  int num;
  
  cout<<"Enter a number : ";
@@ -14,5 +13,5 @@ void main()
    cout<<"Number is even";
  else
    cout<<"Number is odd";
- getch();
+ 
 } 
